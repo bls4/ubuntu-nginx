@@ -1,0 +1,15 @@
+{
+    "name": "ubuntu-nginx",
+    "description": "ubuntu-nginx",
+    "repository": "https://github.com/bls4/ubuntu-nginx",
+    "logo": "https://play-lh.googleusercontent.com/iaJR-64YmYN9iKp6Mcp6WAHtSws1OZlpa07smgZI_nIdRzsvjU3D6qZLENTJm3pqsg=s180-rw",
+    "keywords": ["nginx"],
+    "stack": "container",
+	"env": {
+      "APP_NAME" : {
+        "description": "Name of the app.",
+                "value" : "",
+        "required" : true
+        }	
+    } 
+}
